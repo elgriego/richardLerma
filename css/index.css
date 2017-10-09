@@ -1,0 +1,56 @@
+.toRight {
+	float: right;
+}
+
+.bg-red {
+	background-color: #eb2327;
+}
+
+.txt-white {
+	color: white;
+}
+
+.rlTXT {
+	font-size: 22px;
+	padding-top: 10px;
+	color: white;
+	padding-left: 20px;
+	text-align: left;
+}
+
+.navbar-no-margin-bottom {
+	margin-bottom: 0px;
+}
+
+#slide2 {
+	/*background-size: 360px 640px;*/
+	background-size: cover;
+	background-image: url(../img/home.png);
+}
+
+#slide1 {
+	/*background-size: 360px 640px;*/
+	background-size: cover;
+	background-image: url(../img/leftHome.png);
+}
+
+#slide3 {
+	/*background-size: 360px 640px;*/
+	background-size: cover;
+	background-image: url(../img/whoWeAre.png);
+}
+
+.no-border {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+
+/*.imgBackGround {
+	height: 100%;
+	width: 100%;
+	background-size: contain;
+	background-image: url("../img/home.png");
+	background-repeat: no-repeat;
+}*/
