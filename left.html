@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title></title>
+	
+	<script type="text/javascript" src="js/jjquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				scrollOverflow: true,
+				anchors: ['firstPage', 'secondPage'],
+			});
+		});
+	</script>
+
+</head>
+<body onhashchange="myFunction()">
+
+	<div id="fullpage">
+	
+		<div class="section" id="section0">
+			<div class="intro">
+			</div>
+		</div>
+
+		<div class="section active" id="section1">
+			<div class="intro">
+			  	<img style="width:100%" src="img/leftfull.png">
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<script type="text/javascript">
+function myFunction() {
+	window.location.replace("index.html");
+}
+</script>
+
+</html>
